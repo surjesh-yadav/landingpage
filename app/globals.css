@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.max-width{
+  max-width: 1140px;
+  margin: auto;
+}

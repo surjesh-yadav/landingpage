@@ -8,12 +8,14 @@ import Footer from "./components/Footer"
 export default function Home() {
   return (
     <div className="bg-[#080312]">
+      <div className='max-width'>
         <Header/>
         <BannerSection/>
         <InvestmentOpportunities/>
         <FasterTransactions/>
         <RewardsTransaction/>
         <Footer/>
+        </div>
     </div>
   )
 }

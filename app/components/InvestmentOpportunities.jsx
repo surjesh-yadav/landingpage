@@ -3,7 +3,7 @@ import React from "react";
 const InvestmentOpportunities = () => {
   return (
     <div>
-      <div className="flex space-x-2 justify-center text-white p-1 mx-auto rounded-2xl bg-[#2F283F] w-1/4">
+      <div className="flex space-x-2 justify-center text-white p-1 mx-auto rounded-2xl bg-[#2F283F] max-w-[400px]">
         <span>
           <img src="./star.png" />
         </span>
@@ -19,7 +19,7 @@ const InvestmentOpportunities = () => {
 
       <div class="container mx-auto text-white p-4 grid gap-10 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
         <div class="p-4  rounded shadow-md text-center">
-          <div  className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
+          <div className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
             <img
               src="/opportunity/1.png"
               alt="Image 1"
@@ -43,7 +43,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="p-4  rounded shadow-md text-center">
-          <div  className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
+          <div className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
             <img
               src="/opportunity/3.png"
               alt="Image 3"
@@ -55,7 +55,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="p-4  rounded shadow-md text-center">
-          <div  className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
+          <div className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
             <img
               src="/opportunity/1.png"
               alt="Image 4"
@@ -67,7 +67,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="p-4  rounded shadow-md text-center">
-          <div  className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
+          <div className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
             <img
               src="/opportunity/2.png"
               alt="Image 5"
@@ -80,7 +80,7 @@ const InvestmentOpportunities = () => {
 
         <div class="p-4  rounded shadow-md text-center">
           <div className="image-container mx-auto h-[50px] w-[50px]">
-            <div  className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
+            <div className="w-12 h-12 mx-auto p-3 rounded rounded-full border border-gray-200">
               <img
                 src="/opportunity/3.png"
                 alt="Image 6"

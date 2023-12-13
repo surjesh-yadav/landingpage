@@ -3,7 +3,7 @@ import React from "react";
 const RewardsTransaction = () => {
   return (
     <div>
-      <div className="flex space-x-2 text-white justify-center p-1 mx-auto rounded-2xl bg-[#2F283F] w-1/4">
+      <div className="flex space-x-2 text-white justify-center p-1 mx-auto rounded-2xl bg-[#2F283F] md:w-1/4">
         <span>
           <img src="./star.png" />
         </span>
