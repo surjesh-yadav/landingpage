@@ -6,9 +6,13 @@ import RewardsTransaction from "./components/RewardsTransaction"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Subscribe from './components/Subscribe'
+import Head from 'next/head'
 export default function Home() {
   return (
     <div className="bg-[#03071e] px-8">
+        <Head>
+        <title>CUNetwork</title>
+      </Head>
       <div className='max-width'>
         <Header/>
         <BannerSection/>
