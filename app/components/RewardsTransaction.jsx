@@ -2,8 +2,8 @@ import React from "react";
 
 const RewardsTransaction = () => {
   return (
-    <div>
-      <div className="flex space-x-2 text-white justify-center p-1 mx-auto rounded-2xl bg-[#2F283F] md:w-1/4">
+    <div className="text-center mt-20">
+      <div className="flex space-x-2 text-white justify-center p-1 mx-auto rounded-2xl bg-[#224BC1] md:w-1/4">
         <span>
           <img src="./star.png" />
         </span>
@@ -14,6 +14,9 @@ const RewardsTransaction = () => {
         Whenever the transaction is made, 15% of the amount is distributed as a
         referral program to all the eligible holders
       </p>
+        <div>
+          <img className="mx-auto my-5" src="/dashboardd.png"/>
+        </div>
     </div>
   );
 };

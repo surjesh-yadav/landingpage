@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+ 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+ 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,10 +26,27 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 
 .max-width{
   max-width: 1140px;
   margin: auto;
+}
+
+
+
+
+
+  #scrollToTopBtnmain {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+}
+
+#scrollToTopBtnmain.show {
+  display: block;
 }
