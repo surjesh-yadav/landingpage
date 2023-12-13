@@ -7,7 +7,7 @@ const FasterTransactions = () => {
         backgroundImage: "url(./transaction.png)",
         backgroundRepeat: "no-repeat",
       }}
-      className="container fasterTransaction mx-auto"
+      className="container text-white fasterTransaction mx-auto"
     >
       <div className="flex">
         <div className="p-10">

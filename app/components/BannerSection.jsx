@@ -2,8 +2,8 @@ import React from "react";
 
 const BannerSection = () => {
   return (
-    <div className="banner-section text-center pt-28">
-      <h1 className="heading text-[30px] font-bold">
+    <div className="banner-section text-white text-center pt-10">
+      <h1 className="heading  text-[40px] font-bold">
         Decentralized coin with <br /> revenue generation
       </h1>
       <p className="description mx-auto md:w-1/3">
