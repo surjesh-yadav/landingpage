@@ -3,10 +3,10 @@ import React from "react";
 const InvestmentOpportunities = () => {
   return (
     <div className="relative">
-      <div className="my-10">
+      <div className=" mt-32 mb-20">
         <div className="flex space-x-2 justify-center text-white p-1.5 mx-auto rounded-3xl bg-[#224BC1] max-w-[340px]">
           <span>
-            <img src="./star.png" />
+            <img className="h-[25px] w-[25px]" src="./star.png" />
           </span>
           <span className="block md:hidden">Invest your assets with us</span>
           <span className="hidden md:block">Invest your assets on avtar exchange</span>
@@ -14,7 +14,7 @@ const InvestmentOpportunities = () => {
         <h2 className="heading text-center text-white text-[30px] md:text-4xl mt-5 font-semibold">
           Great investment opportunities
         </h2>
-        <p className="md:w-1/2 text-center mx-auto text-white line-height-custom">
+        <p className="md:w-1/2 mt-4 text-center mx-auto text-white line-height-custom">
         Avtar coin comes with multiple utilities, where users can invest, stake, trade their Avtar coins to get rewards over the period.
         </p>
       </div>
