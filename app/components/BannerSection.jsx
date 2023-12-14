@@ -31,11 +31,11 @@ const BannerSection = () => {
         <div>
           <div className="mb-10">
             <h3 className="text-[20px]  md:text-[40px]   font-bold text-[#3763FF]">85%</h3>
-            <span className="text-left text-[12px] md:text-[16px] text-[#9A9A9A]">Liquidity <br/> Pool </span>
+            <span className="text-left text-[16px] text-[#9A9A9A]">Liquidity <br/> Pool </span>
           </div>
           <div className="md:absolute mt-10 bottom-0 md:bottom-8">
             <h3 className="text-[20px]  md:text-[40px]  font-bold text-[#3763FF]">15%</h3>
-            <h3 className="text-left text-[12px] md:text-[16px] text-[#9A9A9A]">Referral <br/> Program</h3>
+            <h3 className="text-left text-[16px] text-[#9A9A9A]">Referral <br/> Program</h3>
           </div>
         </div>
         <div className="md:w-[40%]">
@@ -44,7 +44,7 @@ const BannerSection = () => {
         <div>
           <div className="">
             <h3 className="text-[20px]  md:text-[40px]  text-left font-bold text-[#3763FF]">60%</h3>
-            <h3 className="text-left text-[12px] md:text-[16px] text-[#9A9A9A]"> Minted after <br/> selling</h3>
+            <h3 className="text-left text-[16px] text-[#9A9A9A]"> Minted after <br/> selling</h3>
           </div>
           <div className="md:absolute mt-10 bottom-0 md:bottom-8">
             <h3 className="text-[20px]  md:text-[40px]  text-left font-bold text-[#3763FF]">5%</h3>
