@@ -39,7 +39,7 @@ const BannerSection = () => {
           </div>
         </div>
         <div className="md:w-[40%]">
-          <img className="mx-auto w-full" src="./big-icon 1.png" />
+          <img className="mx-auto w-full" src="./bannercircle.svg" />
         </div>
         <div>
           <div className="">
