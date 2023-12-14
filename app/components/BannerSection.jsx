@@ -3,24 +3,29 @@ import React from "react";
 const BannerSection = () => {
   return (
     <div className="banner-section text-white text-left md:text-center">
-      <h1 className="heading text-[30px]  md:text-[45px] font-bold">
+    <div className="flash">
+      <h1 className="heading hidden md:block mb-5 text-[50px] font-bold">
         Decentralized coin with <br /> revenue generation
       </h1>
-      <p className="description text-left md:text-center mx-auto md:w-1/2">
+      <h1 className="heading block md:hidden mt-28 mb-5 text-[30px] font-bold">
+        Decentralized coin  <br /> with revenue generation
+      </h1>
+      <p className="description text-left md:text-center line-height-custom mx-auto md:w-1/3">
         You can trade, swap, stake and invest on CUNetwork platform. CUNetwork
         is a decentralized token deployed on binance smart chain network. Let’s
         go to the moon..
       </p>
-      <div className="flex space-x-10 justify-lef md:justify-center mt-10">
+      <div className="flex space-x-8 justify-lef md:justify-center mt-10 pb-16">
         <a
           href="github.com"
-          className="bg-[#232323FA] text-white px-4 py-2 rounded"
+          className="bg-[#232323FA] text-[14px] text-white px-5 py-2 rounded"
         >
           Whitepaper
         </a>
-        <a href="#" className="bg-[#7539F7FA] px-4 py-2 rounded">
+        <a href="#" className="bg-[#234BC1] text-[14px] px-5 py-2 rounded">
           Buy CUN
         </a>
+      </div>
       </div>
       <div className="flex relative my-20 justify-center">
         <div>
@@ -47,17 +52,17 @@ const BannerSection = () => {
           </div>
         </div>
       </div>
-      <div className="md:flex text-left my-16 space-y-5 md:space-y-0 justify-between mx-auto">
+      <div className=" text-left hidden md:flex flex-wrap my-20 space-y-5 md:space-y-0 justify-between mx-auto">
         <div className="md:border-r md:pr-40 border-[#595959] max-w-[200px] md:max-w-none ">
-          <h3>Tokens Burned</h3>
+          <h3 className="text-[#A7A5A5]">Tokens Burned</h3>
           <p className="text-[40px] font-bold">2,31,390</p>
         </div>
         <div className="md:border-r md:pr-40 border-[#595959] max-w-[200px] md:max-w-none ">
-          <h3>Total holders</h3>
+          <h3 className="text-[#A7A5A5]">Total holders</h3>
           <p className="text-[40px] font-bold">16,900</p>
         </div>
         <div className=" max-w-[200px] md:max-w-none ">
-          <h3>Tokens minted</h3>
+          <h3 className="text-[#A7A5A5]">Tokens minted</h3>
           <p className="text-[40px] font-bold">15,00,000</p>
         </div>
       </div>

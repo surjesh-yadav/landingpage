@@ -2,63 +2,68 @@ import React from "react";
 
 const InvestmentOpportunities = () => {
   return (
-    <div>
+    <div className="relative">
       <div className="my-10">
-        <div className="flex space-x-2 justify-center text-white p-1 mx-auto rounded-2xl bg-[#224BC1] max-w-[400px]">
+        <div className="flex space-x-2 justify-center text-white p-1 mx-auto rounded-2xl bg-[#224BC1] max-w-[340px]">
           <span>
             <img src="./star.png" />
           </span>
-          <span>Invest your assets on avtar exchange</span>
+          <span className="block md:hidden">Invest your assets with us</span>
+          <span className="hidden md:block">Invest your assets on avtar exchange</span>
         </div>
-        <h2 className="heading text-center text-white text-4xl my-5">
+        <h2 className="heading text-center text-white text-[30px] md:text-4xl my-5 font-semibold">
           Great investment opportunities
         </h2>
         <p className="md:w-1/2 text-center mx-auto text-white">
-          Avtar coin comes with multiple utilities, where users can invest,
-          stake, trade their Avtar coins to get rewards over the period.
+        Avtar coin comes with multiple utilities, where users can invest, stake, trade their Avtar coins to get rewards over the period.
         </p>
       </div>
-      <div class="container mx-auto text-white p-4 grid gap-10 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
-        <div class="p-4  rounded shadow-md text-center">
-          <div style={{
+      <div class="container my-24 mx-auto text-white bg-[#0B1A4F] grid md:gap-[2px] xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+          <div
+            style={{
               backgroundImage: "url(./Ellipse.png)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-            }} className="w-12 h-12 mx-auto p-3">
+            }}
+            className="w-12 h-12 mx-auto p-3">
             <img
               src="/opportunity/1.png"
               alt="Image 1"
-              class=" mx-auto object-cover mb-2 rounded"
+              class=" mx-auto object-cover  w-5 rounded"
             />
           </div>
-          <h2 class="text-xl font-bold mb-2">100% Decentralized</h2>
-          <p class="text-white">
+          <h2 class=" text-lg font-bold mb-4 mt-8">100% Decentralized</h2>
+          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
             Avtar coin is 100% decentralized. No one has an authority over the
             token holders. Its a non custodial wallet currency which is very
             secure.
           </p>
         </div>
 
-        <div class="p-4 rounded shadow-md text-center">
-          <div style={{
+        <div class=" bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+          <div
+            style={{
               backgroundImage: "url(./Ellipse.png)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-            }} className="w-12 h-12 mx-auto p-3">
+            }}
+            className="w-12 h-12 mx-auto p-3"
+          >
             <img
               src="/opportunity/2.png"
               alt="Image 2"
-              class=" mx-auto object-cover mb-2 rounded"
+              class=" mx-auto object-cover  rounded w-5"
             />
           </div>
-          <h2 class="text-xl font-bold mb-2">Use for Ecommerce</h2>
-          <p class="text-white">
+          <h2 class=" text-lg font-bold mb-4 mt-8">Use for Ecommerce</h2>
+          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
             Avtar coins can be used to purchase various products listed on Avtar
             ecommerce websites. Vendors are welcome to join our marketplace
           </p>
         </div>
 
-        <div class="p-4  rounded shadow-md text-center">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -70,78 +75,88 @@ const InvestmentOpportunities = () => {
             <img
               src="/opportunity/3.png"
               alt="Image 3"
-              class=" mx-auto object-cover mb-2 rounded"
+              class=" mx-auto object-cover  mb-2 rounded w-5"
             />
           </div>
-          <h2 class="text-xl font-bold mb-2">Less gas fees</h2>
-          <p class="text-white">
+          <h2 class=" text-lg font-bold mb-4 mt-8">Less gas fees</h2>
+          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
             As the token is deployed on Bep20 network, gas fees required for
             every transaction is very less & its more convenient than other ETH
             tokens
           </p>
         </div>
 
-        <div class="p-4  rounded shadow-md text-center">
-          <div style={{
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+          <div
+            style={{
               backgroundImage: "url(./Ellipse.png)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-            }} className="w-12 h-12 mx-auto p-3">
+            }}
+            className="w-12 h-12 mx-auto p-3"
+          >
             <img
               src="/opportunity/1.png"
               alt="Image 4"
-              class=" mx-auto object-cover mb-2 rounded"
+              class=" mx-auto object-cover  mb-2 rounded w-5"
             />
           </div>
-          <h2 class="text-xl font-bold mb-2">100% Decentralized</h2>
-          <p class="text-white">
+          <h2 class=" text-lg font-bold mb-4 mt-8">100% Decentralized</h2>
+          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
             Avtar coin is 100% decentralized. No one has an authority over the
             token holders. Its a non custodial wallet currency which is very
             secure.
           </p>
         </div>
 
-        <div class="p-4  rounded shadow-md text-center">
-          <div style={{
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+          <div
+            style={{
               backgroundImage: "url(./Ellipse.png)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
-            }} className="w-12 h-12 mx-auto p-3">
+            }}
+            className="w-12 h-12 mx-auto p-3"
+          >
             <img
               src="/opportunity/2.png"
               alt="Image 5"
-              class="mx-auto object-cover mb-2 rounded"
+              class="mx-auto object-cover  mb-2 rounded w-5"
             />
           </div>
-          <h2 class="text-xl font-bold mb-2">Use for Ecommerce</h2>
-          <p class="text-white">
+          <h2 class=" text-lg font-bold mb-4 mt-8">Use for Ecommerce</h2>
+          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
             Avtar coins can be used to purchase various products listed on Avtar
             ecommerce websites. Vendors are welcome to join our marketplace
           </p>
         </div>
 
-        <div class="p-4  rounded shadow-md text-center">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div className="image-container mx-auto h-[50px] w-[50px]">
-            <div style={{
-              backgroundImage: "url(./Ellipse.png)",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }} className="w-12 h-12 mx-auto p-3">
+            <div
+              style={{
+                backgroundImage: "url(./Ellipse.png)",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+              className="w-12 h-12 mx-auto p-3"
+            >
               <img
                 src="/opportunity/3.png"
                 alt="Image 6"
-                class="  mx-auto object-cover mb-2 rounded"
+                class="  mx-auto object-cover  mb-2 rounded w-5"
               />
             </div>
           </div>
-          <h2 class="text-xl font-bold mb-2">Less gas fees</h2>
-          <p class="text-white">
+          <h2 class=" text-lg font-bold mb-4 mt-8">Less gas fees</h2>
+          <p class="text-white text-[14px]  md:text-[16px] opportunity_desc">
             As the token is deployed on Bep20 network, gas fees required for
             every transaction is very less & its more convenient than other ETH
             tokens
           </p>
         </div>
       </div>
+      {/* <div className=""><img className="line_opportunity" src="/Rectangle.png"/></div> */}
     </div>
   );
 };

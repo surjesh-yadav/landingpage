@@ -27,7 +27,7 @@ body {
     )
     rgb(var(--background-start-rgb));
     font-family: 'Oswald', sans-serif;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 
 
@@ -35,10 +35,6 @@ body {
   max-width: 1140px;
   margin: auto;
 }
-
-
-
-
 
   #scrollToTopBtnmain {
   position: fixed;
@@ -49,4 +45,19 @@ body {
 
 #scrollToTopBtnmain.show {
   display: block;
+}
+
+
+.line_opportunity{
+  position: absolute;
+  transform: rotate(90deg);
+  /* bottom: 0px; */
+  top: 63%;
+  width: 500px;
+  left: 127px;
+}
+
+
+.opportunity_desc, .line-height-custom{
+  line-height: 1.8;
 }

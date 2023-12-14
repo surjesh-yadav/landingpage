@@ -2,20 +2,21 @@ import React from "react";
 
 const RewardsTransaction = () => {
   return (
-    <div className="text-center mt-20">
+    <div className="text-center my-24">
       <div className="flex space-x-2 text-white justify-center p-1 mx-auto rounded-2xl bg-[#224BC1] md:w-1/4">
         <span>
           <img src="./star.png" />
         </span>
-        <span>Earn level income upto 10 levels</span>
+        <span className="text-[13px] md:text-[14px]">Earn level income upto 10 levels</span>
       </div>
-      <h2 className="heading text-4xl text-white my-2 text-center">Rewards on every transaction</h2>
-      <p className="md:w-1/3 mx-auto text-white">
+      <h2 className="heading text-[33px] font-semibold text-white my-2 text-center">Rewards on every transaction</h2>
+      <p className="md:w-1/3 mt-5 mx-auto text-[15px] text-white">
         Whenever the transaction is made, 15% of the amount is distributed as a
         referral program to all the eligible holders
       </p>
         <div>
-          <img className="mx-auto my-5" src="/dashboardd.png"/>
+          <img className="mx-auto hidden md:block my-5" src="/dashboardd.png"/>
+          <img className="mx-auto block md:hidden  my-5" src="/dashboardd2.png"/>
         </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-
+import '@fontsource/plus-jakarta-sans'; // Import the font
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
