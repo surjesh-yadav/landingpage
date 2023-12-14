@@ -1,5 +1,5 @@
 import React from "react";
-
+import Counter from './Counter'
 const BannerSection = () => {
   return (
     <div className="banner-section text-white text-left md:text-center">
@@ -52,7 +52,7 @@ const BannerSection = () => {
           </div>
         </div>
       </div>
-      <div className=" text-left hidden md:flex flex-wrap my-20 space-y-5 md:space-y-0 justify-between mx-auto">
+      {/* <div className=" text-left hidden md:flex flex-wrap my-20 space-y-5 md:space-y-0 justify-between mx-auto">
         <div className="md:border-r md:pr-40 border-[#595959] max-w-[200px] md:max-w-none ">
           <h3 className="text-[#A7A5A5]">Tokens Burned</h3>
           <p className="text-[40px] font-bold">2,31,390</p>
@@ -65,7 +65,8 @@ const BannerSection = () => {
           <h3 className="text-[#A7A5A5]">Tokens minted</h3>
           <p className="text-[40px] font-bold">15,00,000</p>
         </div>
-      </div>
+      </div> */}
+      <Counter/>
     </div>
   );
 };
