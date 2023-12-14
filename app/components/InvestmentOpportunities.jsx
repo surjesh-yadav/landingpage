@@ -37,7 +37,7 @@ const InvestmentOpportunities = () => {
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">100% Decentralized</h2>
-          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
+          <p class="text-[#BCBCBC] text-[14px] md:text-[16px] opportunity_desc">
             Avtar coin is 100% decentralized. No one has an authority over the
             token holders. Its a non custodial wallet currency which is very
             secure.
@@ -61,7 +61,7 @@ const InvestmentOpportunities = () => {
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">Use for Ecommerce</h2>
-          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
+          <p class="text-[#BCBCBC] text-[14px] md:text-[16px] opportunity_desc">
             Avtar coins can be used to purchase various products listed on Avtar
             ecommerce websites. Vendors are welcome to join our marketplace
           </p>
@@ -84,7 +84,7 @@ const InvestmentOpportunities = () => {
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">Less gas fees</h2>
-          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
+          <p class="text-[#BCBCBC] text-[14px] md:text-[16px] opportunity_desc">
             As the token is deployed on Bep20 network, gas fees required for
             every transaction is very less & its more convenient than other ETH
             tokens
@@ -108,7 +108,7 @@ const InvestmentOpportunities = () => {
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">100% Decentralized</h2>
-          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
+          <p class="text-[#BCBCBC] text-[14px] md:text-[16px] opportunity_desc">
             Avtar coin is 100% decentralized. No one has an authority over the
             token holders. Its a non custodial wallet currency which is very
             secure.
@@ -132,7 +132,7 @@ const InvestmentOpportunities = () => {
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">Use for Ecommerce</h2>
-          <p class="text-white text-[14px] md:text-[16px] opportunity_desc">
+          <p class="text-[#BCBCBC] text-[14px] md:text-[16px] opportunity_desc">
             Avtar coins can be used to purchase various products listed on Avtar
             ecommerce websites. Vendors are welcome to join our marketplace
           </p>
@@ -157,7 +157,7 @@ const InvestmentOpportunities = () => {
             </div>
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">Less gas fees</h2>
-          <p class="text-white text-[14px]  md:text-[16px] opportunity_desc">
+          <p class="text-[#BCBCBC] text-[14px]  md:text-[16px] opportunity_desc">
             As the token is deployed on Bep20 network, gas fees required for
             every transaction is very less & its more convenient than other ETH
             tokens
