@@ -14,7 +14,7 @@ const FasterTransactions = () => {
         className="container text-white fasterTransaction mx-auto">
         <div className="md:flex justify-between">
           <div className="p-5 md:pl-16 py-5 md:py-16 md:w-1/2">
-            <div className="flex mx-auto md:mx-0 space-x-2 justify-center p-1.5 rounded-3xl px-3 bg-[#255EF0AB] max-w-[300px]">
+            <div className="flex mx-auto md:mx-0 space-x-2 justify-center p-2 md:p-1.5 rounded-3xl px-3 bg-[#255EF0AB] max-w-[250px] md:max-w-[300px]">
               <span>
                 <img src="./star.png" />
               </span>

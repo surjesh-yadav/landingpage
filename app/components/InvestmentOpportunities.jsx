@@ -4,7 +4,7 @@ const InvestmentOpportunities = () => {
   return (
     <div className="relative">
       <div className=" mt-32 mb-20">
-        <div className="flex space-x-2 justify-center text-white p-1.5 mx-auto rounded-3xl bg-[#224BC1] max-w-[340px]">
+        <div className="flex space-x-2 justify-center text-white p-2 md:p-1.5 mx-auto rounded-3xl bg-[#224BC1] max-w-[285px] md:max-w-[340px]">
           <span>
             <img className="h-[25px] w-[25px]" src="./star.svg" />
           </span>
