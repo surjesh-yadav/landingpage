@@ -5,7 +5,7 @@ const RewardsTransaction = () => {
     <div className="text-center my-24">
       <div className="flex space-x-2 text-white justify-center max-w-[270px] p-2 mx-auto rounded-3xl bg-[#224BC1] md:w-1/4">
         <span>
-          <img src="./star.png" />
+          <img src="./star.svg" />
         </span>
         <span className="text-[13px] md:text-[14px]">
           Earn level income upto 10 levels
