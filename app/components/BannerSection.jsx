@@ -4,10 +4,10 @@ const BannerSection = () => {
   return (
     <div className="banner-section text-white text-left md:text-center">
     <div className="flash">
-      <h1 className="heading hidden md:block mb-5 text-[55px] font-bold">
+      <h1 className="heading hidden md:block mb-5  text-[55px] font-bold">
         Decentralized coin with <br /> revenue generation
       </h1>
-      <h1 className="heading block md:hidden mt-28 mb-5 text-[32px] font-bold">
+      <h1 className="heading block md:hidden text-center mt-28 mb-5 text-[32px] font-bold">
         Decentralized coin  with revenue generation
       </h1>
       <p className="description text-[20px] text-left md:text-center line-height-custom mx-auto md:w-1/2">

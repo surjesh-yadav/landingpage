@@ -16,7 +16,7 @@ const FasterTransactions = () => {
           <div className="p-5 md:pl-20 py-5 md:py-16 md:w-[58%]">
             <div className="flex mx-auto md:mx-0 space-x-2 justify-center p-2 md:text-[25px] md:p-1.5 rounded-3xl px-3 bg-[#255EF0AB] max-w-[250px] md:max-w-[410px]">
               <span>
-                <img className="mt-2" src="./star.svg" />
+                <img className="md:mt-2" src="./star.svg" />
               </span>
               <span className="hidden md:block">Faster transactions on Bep20</span>
               <span className="block md:hidden">Faster transactions</span>
@@ -29,7 +29,7 @@ const FasterTransactions = () => {
              There are multiple reasons why Avtar coin is deployed on Bep20 network & few of them are listed below
             </p>
            
-            <div className="bg-[#151f3d] mx-auto mt-8 md:mx-0  md:pl-[43px]  rounded-2xl p-5  max-w-[410px]">
+            <div className="bg-[#151f3d] mx-auto mt-8 md:mx-0 pl-[28px]  md:pl-[43px]  rounded-2xl p-4 md:p-5  max-w-[410px]">
             <ul className=" list-disc text-[15px] md:text-[20px] mx-auto md:mx-0 ">
               <li className="mb-2">Block speed is more on Bep20</li>
               <li className="mb-2"> Gas optimization is better</li>
