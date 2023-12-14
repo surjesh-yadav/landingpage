@@ -35,7 +35,7 @@ const Counter = ({ initialValue, maxValue, label, isLast }) => {
   return (
     <div className={`mx-auto max-w-[200px] md:max-w-none ${borderStyles}`}>
       <h3 className="text-[#A7A5A5]">{label}</h3>
-      <p className="text-[40px] font-bold">{counter.toLocaleString()}</p>
+      <p className="text-[40px] md:w-48 font-bold">{counter.toLocaleString()}</p>
     </div>
   );
 };
