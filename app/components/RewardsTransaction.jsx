@@ -3,7 +3,7 @@ import React from "react";
 const RewardsTransaction = () => {
   return (
     <div className="text-center my-24">
-      <div className="flex space-x-2 text-white justify-center p-1 mx-auto rounded-2xl bg-[#224BC1] md:w-1/4">
+      <div className="flex space-x-2 text-white justify-center p-1.5 mx-auto rounded-3xl bg-[#224BC1] md:w-1/4">
         <span>
           <img src="./star.png" />
         </span>
@@ -16,7 +16,7 @@ const RewardsTransaction = () => {
       </p>
         <div>
           <img className="mx-auto hidden md:block my-5" src="/dashboardd.png"/>
-          <img className="mx-auto block md:hidden  my-5" src="/dashboardd2.png"/>
+          <img className="mx-auto block md:hidden  my-5" src="/mobile.png"/>
         </div>
     </div>
   );

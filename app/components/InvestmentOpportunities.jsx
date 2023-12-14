@@ -4,22 +4,22 @@ const InvestmentOpportunities = () => {
   return (
     <div className="relative">
       <div className="my-10">
-        <div className="flex space-x-2 justify-center text-white p-1 mx-auto rounded-2xl bg-[#224BC1] max-w-[340px]">
+        <div className="flex space-x-2 justify-center text-white p-1.5 mx-auto rounded-3xl bg-[#224BC1] max-w-[340px]">
           <span>
             <img src="./star.png" />
           </span>
           <span className="block md:hidden">Invest your assets with us</span>
           <span className="hidden md:block">Invest your assets on avtar exchange</span>
         </div>
-        <h2 className="heading text-center text-white text-[30px] md:text-4xl my-5 font-semibold">
+        <h2 className="heading text-center text-white text-[30px] md:text-4xl mt-5 font-semibold">
           Great investment opportunities
         </h2>
-        <p className="md:w-1/2 text-center mx-auto text-white">
+        <p className="md:w-1/2 text-center mx-auto text-white line-height-custom">
         Avtar coin comes with multiple utilities, where users can invest, stake, trade their Avtar coins to get rewards over the period.
         </p>
       </div>
-      <div class="container my-24 mx-auto text-white bg-[#0B1A4F] grid md:gap-[2px] xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+      <div class="container my-10 mx-auto text-white bg-[#0B1A4F] grid md:gap-[2px] xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -41,7 +41,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class=" bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class=" md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -63,7 +63,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -86,7 +86,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -109,7 +109,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -131,7 +131,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
           <div className="image-container mx-auto h-[50px] w-[50px]">
             <div
               style={{

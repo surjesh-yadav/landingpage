@@ -15,7 +15,7 @@ const BannerSection = () => {
         is a decentralized token deployed on binance smart chain network. Let’s
         go to the moon..
       </p>
-      <div className="flex space-x-8 justify-lef md:justify-center mt-10 pb-16">
+      <div className="flex space-x-8 justify-lef md:justify-center mt-8 pb-16">
         <a
           href="github.com"
           className="bg-[#232323FA] text-[14px] text-white px-5 py-2 rounded"
@@ -29,26 +29,26 @@ const BannerSection = () => {
       </div>
       <div className="flex relative my-20 justify-center">
         <div>
-          <div className="">
-            <h3 className="text-[30px] font-bold text-[#3763FF]">85%</h3>
-            <h3 className="text-left">Liquidity <br/> Pool</h3>
+          <div className="mb-10">
+            <h3 className="text-[20px]  md:text-[40px]   font-bold text-[#3763FF]">85%</h3>
+            <span className="text-left text-[12px] md:text-[16px] text-[#9A9A9A]">Liquidity <br/> Pool </span>
           </div>
-          <div className="absolute bottom-0">
-            <h3 className="text-[30px] font-bold text-[#3763FF]">15%</h3>
-            <h3 className="text-left">Referral <br/> Program</h3>
+          <div className="md:absolute mt-10 bottom-0 md:bottom-8">
+            <h3 className="text-[20px]  md:text-[40px]  font-bold text-[#3763FF]">15%</h3>
+            <h3 className="text-left text-[12px] md:text-[16px] text-[#9A9A9A]">Referral <br/> Program</h3>
           </div>
         </div>
-        <div className="w-1/2 ">
-          <img className="mx-auto" src="./big-icon 1.png" />
+        <div className="md:w-[40%]">
+          <img className="mx-auto w-full" src="./big-icon 1.png" />
         </div>
         <div>
           <div className="">
-            <h3 className="text-[30px]  text-left font-bold text-[#3763FF]">60%</h3>
-            <h3 className="text-left"> Minted after <br/> selling</h3>
+            <h3 className="text-[20px]  md:text-[40px]  text-left font-bold text-[#3763FF]">60%</h3>
+            <h3 className="text-left text-[12px] md:text-[16px] text-[#9A9A9A]"> Minted after <br/> selling</h3>
           </div>
-          <div className="absolute bottom-0">
-            <h3 className="text-[30px]  text-left font-bold text-[#3763FF]">5%</h3>
-            <h3 className="text-left">Admin <br/> charges</h3>
+          <div className="md:absolute mt-10 bottom-0 md:bottom-8">
+            <h3 className="text-[20px]  md:text-[40px]  text-left font-bold text-[#3763FF]">5%</h3>
+            <h3 className="text-left text-[16px] text-[#9A9A9A]">Admin <br/> charges</h3>
           </div>
         </div>
       </div>
