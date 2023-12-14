@@ -18,19 +18,22 @@ const InvestmentOpportunities = () => {
         Avtar coin comes with multiple utilities, where users can invest, stake, trade their Avtar coins to get rewards over the period.
         </p>
       </div>
-      <div class="container my-10 mx-auto text-white bg-[#0B1A4F] grid md:gap-[2px] xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+      <div class="features-row-border rotate-90 w-1/2 h-[1px] absolute top-1/2 left-1/2 -translate-y-1/2 lg:-translate-x-1/3 lg:left-1/4 hidden lg:block">
+</div>
+      <div class="container my-10 mx-auto text-white bg-[#0B1A4F] grid xs:grid-cols-1 gap-[1px] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+        <div className="group relative overflow-hidden  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
-            className="w-12 h-12 mx-auto p-3">
+            className="w-12 h-12 mx-auto  p-3">
             <img
-              src="/opportunity/1.png"
+              src="/1.svg"
               alt="Image 1"
-              class=" mx-auto object-cover  w-5 rounded"
+              class=" mx-auto object-cover  mt-1 w-5 rounded"
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">100% Decentralized</h2>
@@ -41,7 +44,8 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class=" bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="group relative overflow-hidden  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -51,9 +55,9 @@ const InvestmentOpportunities = () => {
             className="w-12 h-12 mx-auto p-3"
           >
             <img
-              src="/opportunity/2.png"
+              src="/2.svg"
               alt="Image 2"
-              class=" mx-auto object-cover  rounded w-5"
+              class=" mx-auto object-cover  mt-1 rounded w-5"
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">Use for Ecommerce</h2>
@@ -63,7 +67,8 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="group relative overflow-hidden   bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -73,9 +78,9 @@ const InvestmentOpportunities = () => {
             className="w-12 h-12 mx-auto p-3"
           >
             <img
-              src="/opportunity/3.png"
+              src="/3.svg"
               alt="Image 3"
-              class=" mx-auto object-cover  mb-2 rounded w-5"
+              class=" mx-auto object-cover  mt-1 mb-2 rounded w-5"
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">Less gas fees</h2>
@@ -86,7 +91,8 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="group relative overflow-hidden bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -96,9 +102,9 @@ const InvestmentOpportunities = () => {
             className="w-12 h-12 mx-auto p-3"
           >
             <img
-              src="/opportunity/1.png"
+              src="/1.svg"
               alt="Image 4"
-              class=" mx-auto object-cover  mb-2 rounded w-5"
+              class=" mx-auto object-cover  mt-1 mb-2 rounded w-5"
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">100% Decentralized</h2>
@@ -109,7 +115,8 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="group relative overflow-hidden  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -119,9 +126,9 @@ const InvestmentOpportunities = () => {
             className="w-12 h-12 mx-auto p-3"
           >
             <img
-              src="/opportunity/2.png"
+              src="/2.svg"
               alt="Image 5"
-              class="mx-auto object-cover  mb-2 rounded w-5"
+              class="mx-auto object-cover  mt-1 mb-2 rounded w-5"
             />
           </div>
           <h2 class=" text-lg font-bold mb-4 mt-8">Use for Ecommerce</h2>
@@ -131,7 +138,8 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <div class="group relative overflow-hidden  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
+        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div className="image-container mx-auto h-[50px] w-[50px]">
             <div
               style={{
@@ -142,9 +150,9 @@ const InvestmentOpportunities = () => {
               className="w-12 h-12 mx-auto p-3"
             >
               <img
-                src="/opportunity/3.png"
+                src="/3.svg"
                 alt="Image 6"
-                class="  mx-auto object-cover  mb-2 rounded w-5"
+                class="  mx-auto object-cover  mt-1  rounded w-5"
               />
             </div>
           </div>
