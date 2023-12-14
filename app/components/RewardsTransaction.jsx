@@ -19,8 +19,8 @@ const RewardsTransaction = () => {
         referral program to all the eligible holders
       </p>
       <div>
-        <img className="mx-auto hidden md:block my-5" src="/dashboardd.png" />
-        <img className="mx-auto block md:hidden  my-5" src="/mobile.png" />
+        <img className="mx-auto hidden md:block my-5" src="/dashh.svg" />
+        <img className="mx-auto block md:hidden  my-5" src="/mobdashh.svg" />
       </div>
     </div>
   );

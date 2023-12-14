@@ -15,7 +15,7 @@ const BannerSection = () => {
         is a decentralized token deployed on binance smart chain network. Let’s
         go to the moon..
       </p>
-      <div className="flex space-x-8 justify-lef md:justify-center mt-8 pb-16">
+      <div className="flex space-x-8 justify-center mt-8 pb-16">
         <a
           href="github.com"
           className="bg-[#232323FA] text-[14px] text-white px-8 py-2 rounded"
