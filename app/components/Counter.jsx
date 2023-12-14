@@ -4,22 +4,33 @@ import { useState, useEffect } from "react";
 const Counter = ({ initialValue, maxValue, label, isLast }) => {
   const [counter, setCounter] = useState(0);
 
+//   const [counter, setCounter] = useState(initialValue);
+  const duration = 2000; // Animation duration in milliseconds
+
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCounter((prevCounter) => {
-        if (prevCounter < maxValue) {
-          return prevCounter + 1;
-        } else {
-          clearInterval(interval);
-          return prevCounter;
-        }
-      });
-    }, 1);
+    const startTime = Date.now();
+    const endTime = startTime + duration;
 
-    return () => clearInterval(interval);
-  }, [maxValue]);
+    const updateCounter = () => {
+      const now = Date.now();
+      const progress = Math.min(1, (now - startTime) / duration);
+      const targetValue = Math.floor(initialValue + progress * (maxValue - initialValue));
 
-  const borderStyles = isLast ? "" : "md:border-r md:pr-40 border-[#595959]";
+      setCounter(targetValue);
+
+      if (now < endTime) {
+        requestAnimationFrame(updateCounter);
+      }
+    };
+
+    requestAnimationFrame(updateCounter);
+
+    return () => {
+      setCounter(maxValue); // Ensure the final value is accurate
+    };
+  }, [initialValue, maxValue, duration]);
+
+  const borderStyles = isLast ? '' : 'md:border-r md:pr-40 border-[#595959]';
 
   return (
     <div className={`mx-auto max-w-[200px] md:max-w-none ${borderStyles}`}>
