@@ -10,7 +10,7 @@ const Footer = () => {
       >
        <img src="./scrollup.png"/>
       </a>
-      <footer class=" md:md:bg-[#03071e] bg-[#0b0b0b] mt-20">
+      <footer class=" md:bg-[#03071e] mt-20">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">

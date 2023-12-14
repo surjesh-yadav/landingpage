@@ -19,7 +19,7 @@ const InvestmentOpportunities = () => {
         </p>
       </div>
       <div class="container my-10 mx-auto text-white bg-[#0B1A4F] grid md:gap-[2px] xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
-        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -41,7 +41,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class=" md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
+        <div class=" bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -63,7 +63,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -86,7 +86,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -109,7 +109,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -131,7 +131,7 @@ const InvestmentOpportunities = () => {
           </p>
         </div>
 
-        <div class="  md:bg-[#03071e] bg-[#0b0b0b] p-5 md:p-10 mx-auto text-center">
+        <div class="  bg-[#03071e] p-5 md:p-10 mx-auto text-center">
           <div className="image-container mx-auto h-[50px] w-[50px]">
             <div
               style={{

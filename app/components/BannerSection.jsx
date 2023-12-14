@@ -4,13 +4,13 @@ const BannerSection = () => {
   return (
     <div className="banner-section text-white text-left md:text-center">
     <div className="flash">
-      <h1 className="heading hidden md:block mb-5 text-[50px] font-bold">
+      <h1 className="heading hidden md:block mb-5 text-[55px] font-bold">
         Decentralized coin with <br /> revenue generation
       </h1>
-      <h1 className="heading block md:hidden mt-28 mb-5 text-[30px] font-bold">
+      <h1 className="heading block md:hidden mt-28 mb-5 text-[40px] font-bold">
         Decentralized coin  <br /> with revenue generation
       </h1>
-      <p className="description text-left md:text-center line-height-custom mx-auto md:w-1/3">
+      <p className="description text-[20px] text-left md:text-center line-height-custom mx-auto md:w-1/2">
         You can trade, swap, stake and invest on CUNetwork platform. CUNetwork
         is a decentralized token deployed on binance smart chain network. Let’s
         go to the moon..
@@ -18,11 +18,11 @@ const BannerSection = () => {
       <div className="flex space-x-8 justify-lef md:justify-center mt-8 pb-16">
         <a
           href="github.com"
-          className="bg-[#232323FA] text-[14px] text-white px-5 py-2 rounded"
+          className="bg-[#232323FA] text-[14px] text-white px-8 py-2 rounded"
         >
           Whitepaper
         </a>
-        <a href="#" className="bg-[#234BC1] text-[14px] px-5 py-2 rounded">
+        <a href="#" className="bg-[#234BC1] text-[14px] px-8 py-2 rounded">
           Buy CUN
         </a>
       </div>
