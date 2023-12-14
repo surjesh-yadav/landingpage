@@ -33,15 +33,15 @@ const Counter = ({ initialValue, maxValue, label, isLast }) => {
   const borderStyles = isLast ? '' : 'md:border-r md:pr-40 border-[#595959]';
 
   return (
-    <div className={`mx-auto max-w-[300px]  md:max-w-none ${borderStyles}`}>
+    <div className={`mx-auto bg-[#03071e] w-full`}>
       <h3 className="text-[#A7A5A5] text-center">{label}</h3>
-      <p className="text-[40px] md:w-[30px] text-center font-bold">{counter.toLocaleString()}</p>
+      <p className="text-[40px]  text-center font-bold">{counter.toLocaleString()}</p>
     </div>
   );
 };
 const CounterReal = () => {
   return (
-    <div className="text-left grid gap-[30px] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-20 space-y-5 md:space-y-0 justify-around mx-auto">
+    <div className="text-left grid gap-[1px] sm:grid-cols-1 lg:bg-gray-300 md:grid-cols-2 lg:grid-cols-3 my-20 space-y-5 md:space-y-0 justify-around mx-auto">
       <Counter initialValue={0} maxValue={231390} label="Tokens Burned" />
       <Counter initialValue={0} maxValue={16900} label="Total holders" />
       <Counter
