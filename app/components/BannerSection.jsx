@@ -29,7 +29,7 @@ const BannerSection = () => {
          </div>
       </div>
       </div>
-      <div className="flex relative my-20 justify-ce nnter">
+      <div className="flex relative my-20 justify-center">
         <div>
           <div className="mb-10">
             <h3 className="text-[20px]  md:text-[40px]   font-bold text-[#3763FF]">85%</h3>
