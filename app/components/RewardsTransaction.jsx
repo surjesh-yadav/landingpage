@@ -14,7 +14,7 @@ const RewardsTransaction = () => {
       <h2 className="heading text-[33px] font-semibold text-white my-2 text-center">
         Rewards on every transaction
       </h2>
-      <p className="md:w-1/3 mt-5 mx-auto text-[15px] text-white">
+      <p className="md:w-1/3 mt-5 mb-8 mx-auto text-[15px] text-white">
         Whenever the transaction is made, 15% of the amount is distributed as a
         referral program to all the eligible holders
       </p>
