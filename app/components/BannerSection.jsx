@@ -16,18 +16,20 @@ const BannerSection = () => {
         go to the moon..
       </p>
       <div className="flex space-x-8 justify-center mt-8 pb-16">
-        <a
-          href="github.com"
-          className="bg-[#232323FA] text-[16px] text-white px-4 md:px-10 py-2 rounded"
-        >
-          Whitepaper
-        </a>
-        <a href="#" className="bg-[#234BC1] text-[16px] px-4 md:px-10 py-2 rounded">
-          Buy CUN
-        </a>
+         
+        <div className='right-button bg-[#232323FA] h-12 py-1.5 px-5 rounded-md'>
+           <a href='#' className='flex space-x-1 py-auto text-[18px] md:text-[18px] '>
+             <span className='pt-1'>Whitepaper</span><img src='/header-button-arrow.svg' className="mt-1.5 ml-3" />
+           </a>
+         </div>
+         <div className='right-button bg-[#234BC1] h-12 py-1.5 px-5 rounded-md'>
+           <a href='#' className='flex space-x-1 py-auto text-[18px] md:text-[18px] '>
+             <span className='pt-1'>Buy CUN</span><img src='/header-button-arrow.svg' className="mt-1.5 ml-3" />
+           </a>
+         </div>
       </div>
       </div>
-      <div className="flex relative my-20 justify-center">
+      <div className="flex relative my-20 justify-ce nnter">
         <div>
           <div className="mb-10">
             <h3 className="text-[20px]  md:text-[40px]   font-bold text-[#3763FF]">85%</h3>
