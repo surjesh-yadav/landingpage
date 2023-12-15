@@ -18,11 +18,11 @@ const BannerSection = () => {
       <div className="flex space-x-8 justify-center mt-8 pb-16">
         <a
           href="github.com"
-          className="bg-[#232323FA] text-[20px] text-white px-2 md:px-10 py-3 rounded"
+          className="bg-[#232323FA] text-[16px] text-white px-4 md:px-10 py-2 rounded"
         >
           Whitepaper
         </a>
-        <a href="#" className="bg-[#234BC1] text-[20px] px-2 md:px-10 py-3 rounded">
+        <a href="#" className="bg-[#234BC1] text-[16px] px-4 md:px-10 py-2 rounded">
           Buy CUN
         </a>
       </div>
