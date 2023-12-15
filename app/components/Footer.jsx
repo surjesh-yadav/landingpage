@@ -86,7 +86,7 @@ const Footer = () => {
                 Company
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                <li class="mb-4">
+                <li class="mb-2">
                   <a href="#" class="hover:underline text-[#676666]">
                     INC Limited
                   </a>
