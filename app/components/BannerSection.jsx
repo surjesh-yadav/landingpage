@@ -10,7 +10,7 @@ const BannerSection = () => {
         <h1 className="heading block md:hidden text-center mt-28 mb-5 text-[32px] font-bold">
           Decentralized coin with revenue generation
         </h1>
-        <p className="description text-[20px]  text-center line-height-custom mx-auto md:w-1/2">
+        <p className="description text-[20px] text-[#DDDDDD] text-center line-height-custom mx-auto md:w-1/2">
           You can trade, swap, stake and invest on CUNetwork platform. CUNetwork
           is a decentralized token deployed on binance smart chain network.
           Let’s go to the moon..
