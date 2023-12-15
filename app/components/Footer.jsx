@@ -12,12 +12,12 @@ const Footer = () => {
       </a>
       <footer class=" md:bg-[#0B0C0E] mt-20">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
+          <div class="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div className="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
                 <img
-                  src="/navimage.png"
-                  class="h-10 me-10"
+                  src="/logo-dark.svg"
+                  class=""
                   alt="FlowBite Logo"
                 />
               </a>
@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div>
+            <div className="mx-auto">
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Product
               </h2>
@@ -54,7 +54,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="mx-auto">
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Support
               </h2>
@@ -81,7 +81,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="mx-auto">
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Company
               </h2>
