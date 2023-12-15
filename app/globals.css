@@ -28,6 +28,7 @@ body {
     rgb(var(--background-start-rgb));
   
     font-family: 'Plus Jakarta Sans', sans-serif!important;
+    src: url('/public/fonts/PlusJakartaSans-VariableFont_wght.ttf');
 }
 
 
