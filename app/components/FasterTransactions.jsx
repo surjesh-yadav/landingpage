@@ -30,7 +30,7 @@ const FasterTransactions = () => {
             </p>
            
             <div className="bg-[#151f3d] text-center md:text-start mx-auto mt-8 md:mx-0 pl-[28px]  md:pl-[43px]  rounded-2xl p-4 md:p-5  max-w-[410px]">
-            <ul className=" list-disc text-[15px] md:text-[20px] mx-auto md:mx-0 ">
+            <ul className=" md:list-disc text-[15px] md:text-[20px] mx-auto md:mx-0 ">
               <li className="mb-2">Block speed is more on Bep20</li>
               <li className="mb-2"> Gas optimization is better</li>
               <li className="mb-2">Transaction speed is more</li>
