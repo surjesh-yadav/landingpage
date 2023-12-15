@@ -9,27 +9,30 @@ const InvestmentOpportunities = () => {
             <img className="h-[25px] w-[25px]" src="./star.svg" />
           </span>
           <span className="block md:hidden">Invest your assets with us</span>
-          <span className="hidden md:block">Invest your assets on avtar exchange</span>
+          <span className="hidden md:block">
+            Invest your assets on avtar exchange
+          </span>
         </div>
         <h2 className="heading text-center text-white text-[30px] md:text-4xl mt-5 font-semibold">
           Great investment opportunities
         </h2>
         <p className="md:w-1/2 mt-4 text-center mx-auto text-white line-height-custom">
-        Avtar coin comes with multiple utilities, where users can invest, stake, trade their Avtar coins to get rewards over the period.
+          Avtar coin comes with multiple utilities, where users can invest,
+          stake, trade their Avtar coins to get rewards over the period.
         </p>
       </div>
-      <div class="features-row-border rotate-90 w-1/2 h-[1px] absolute top-1/2 left-1/2 -translate-y-1/2 lg:-translate-x-1/3 lg:left-1/4 hidden lg:block">
-</div>
+      <div class="features-row-border rotate-90 w-1/2 h-[1px] absolute top-1/2 left-1/2 -translate-y-1/2 lg:-translate-x-1/3 lg:left-1/4 hidden lg:block"></div>
       <div class="container my-10 mx-auto text-white bg-[#202020] grid xs:grid-cols-1 md:gap-[1px] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
         <div className="group relative overflow-hidden  bg-[#0B0C0E] p-5 md:p-10 mx-auto text-center">
-        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+          <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
-            className="w-12 h-12 mx-auto  p-3">
+            className="w-12 h-12 mx-auto  p-3"
+          >
             <img
               src="/1.svg"
               alt="Image 1"
@@ -45,7 +48,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="group relative overflow-hidden  bg-[#0B0C0E] p-5 md:p-10 mx-auto text-center">
-        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+          <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -68,7 +71,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="group relative overflow-hidden   bg-[#0B0C0E] p-5 md:p-10 mx-auto text-center">
-        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+          <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -92,7 +95,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="group relative overflow-hidden bg-[#0B0C0E] p-5 md:p-10 mx-auto text-center">
-        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+          <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -116,7 +119,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="group relative overflow-hidden  bg-[#0B0C0E] p-5 md:p-10 mx-auto text-center">
-        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+          <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
             style={{
               backgroundImage: "url(./Ellipse.png)",
@@ -139,7 +142,7 @@ const InvestmentOpportunities = () => {
         </div>
 
         <div class="group relative overflow-hidden  bg-[#0B0C0E] p-5 md:p-10 mx-auto text-center">
-        <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
+          <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div className="image-container mx-auto h-[50px] w-[50px]">
             <div
               style={{

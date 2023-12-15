@@ -10,7 +10,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="bg-[#0B0C0E] px-5">
+    <div className="bg-[#0B0C0E] px-5 scroll-smooth">
        <Head>
         <title>CUNetwork</title>
       </Head>

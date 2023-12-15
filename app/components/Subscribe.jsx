@@ -3,7 +3,9 @@ import React from "react";
 const Subscribe = () => {
   return (
     <div>
-      <h2 className=" text-3xl md:text-4xl font-bold ml-5 md:text-center">Subscribe</h2>
+      <h2 className=" text-3xl md:text-4xl font-bold ml-5 md:text-center">
+        Subscribe
+      </h2>
       <div
         style={{
           backgroundImage: "url(./subscribeform.png)",

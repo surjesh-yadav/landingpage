@@ -8,21 +8,19 @@ const Footer = () => {
         id="scrollToTopBtnmain"
         class="bg-[#224BC1] fixed bottom-20 py-5 hover:bg-blue-700 text-white font-bold px-4 rounded"
       >
-       <img src="./scrollup.svg"/>
+        <img src="./scrollup.svg" />
       </a>
       <footer class=" md:bg-[#0B0C0E] pt-32 pb-10">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div class="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             <div className="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
-                <img
-                  src="/logo-dark.svg"
-                  class=""
-                  alt="FlowBite Logo"
-                />
+                <img src="/logo-dark.svg" class="" alt="FlowBite Logo" />
               </a>
               <div className="mt-5 text-[#ACAAAA]">
-                <p>Lorem ipsum the best decentralizded <br/> with best features.</p>
+                <p>
+                  Lorem ipsum the best decentralizded <br /> with best features.
+                </p>
                 <p className="mt-3">All Rights Reserved.CUNetwork.io</p>
               </div>
             </div>
