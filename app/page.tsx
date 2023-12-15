@@ -11,18 +11,18 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="bg-[#0B0C0E] px-5 scroll-smooth">
-       <Head>
+      <Head>
         <title>CUNetwork</title>
       </Head>
       <div className='max-width'>
-        <Header/>
-        <BannerSection/>
-        <InvestmentOpportunities/>
-        <FasterTransactions/>
-        <RewardsTransaction/>
-        <Subscribe/>
-        <Footer/>
-        </div>
+        <Header />
+        <BannerSection />
+        <InvestmentOpportunities />
+        <FasterTransactions />
+        <RewardsTransaction />
+        <Subscribe />
+        <Footer />
+      </div>
     </div>
   )
 }

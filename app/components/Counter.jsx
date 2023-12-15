@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const Counter = ({ initialValue, maxValue, label, isLast }) => {
   const [counter, setCounter] = useState(0);
 
-//   const [counter, setCounter] = useState(initialValue);
+  //   const [counter, setCounter] = useState(initialValue);
   const duration = 2000; // Animation duration in milliseconds
 
   useEffect(() => {
@@ -14,7 +14,9 @@ const Counter = ({ initialValue, maxValue, label, isLast }) => {
     const updateCounter = () => {
       const now = Date.now();
       const progress = Math.min(1, (now - startTime) / duration);
-      const targetValue = Math.floor(initialValue + progress * (maxValue - initialValue));
+      const targetValue = Math.floor(
+        initialValue + progress * (maxValue - initialValue)
+      );
 
       setCounter(targetValue);
 
@@ -30,12 +32,14 @@ const Counter = ({ initialValue, maxValue, label, isLast }) => {
     };
   }, [initialValue, maxValue, duration]);
 
-  const borderStyles = isLast ? '' : 'md:border-r md:pr-40 border-[#595959]';
+  const borderStyles = isLast ? "" : "md:border-r md:pr-40 border-[#595959]";
 
   return (
     <div className={`mx-auto bg-[#0B0C0E] w-full`}>
       <h3 className="text-[#A7A5A5] text-center">{label}</h3>
-      <p className="text-[40px]  text-center font-bold">{counter.toLocaleString()}</p>
+      <p className="text-[40px]  text-center font-bold">
+        {counter.toLocaleString()}
+      </p>
     </div>
   );
 };
