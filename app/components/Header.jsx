@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <div className="right-button bg-[#234BC1] h-12 py-1.5 px-5 rounded-md">
         <a
-          href="#"
+          href="https://github.com/"
           className="flex space-x-1 py-auto text-[18px] md:text-[18px] "
         >
           <span className="pt-1">Connect</span>
