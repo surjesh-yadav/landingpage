@@ -20,7 +20,7 @@ const InvestmentOpportunities = () => {
       </div>
       <div class="features-row-border rotate-90 w-1/2 h-[1px] absolute top-1/2 left-1/2 -translate-y-1/2 lg:-translate-x-1/3 lg:left-1/4 hidden lg:block">
 </div>
-      <div class="container my-10 mx-auto text-white bg-[#202020] grid xs:grid-cols-1 gap-[1px] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+      <div class="container my-10 mx-auto text-white bg-[#202020] grid xs:grid-cols-1 md:gap-[1px] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
         <div className="group relative overflow-hidden  bg-[#0B0C0E] p-5 md:p-10 mx-auto text-center">
         <span className="group-hover:opacity-100 opacity-0 features-bg absolute w-full h-full left-0 top-0 -z-1 rotate-180"></span>
           <div
