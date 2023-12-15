@@ -10,9 +10,9 @@ const Footer = () => {
       >
        <img src="./scrollup.png"/>
       </a>
-      <footer class=" md:bg-[#0B0C0E] mt-20">
+      <footer class=" md:bg-[#0B0C0E] mt-32">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div class="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div class="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             <div className="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
                 <img
@@ -21,14 +21,14 @@ const Footer = () => {
                   alt="FlowBite Logo"
                 />
               </a>
-              <div className="my-5 text-[#ACAAAA]">
+              <div className="mt-5 text-[#ACAAAA]">
                 <p>Lorem ipsum the best decentralizded <br/> with best features.</p>
                 <p className="mt-3">All Rights Reserved.CUNetwork.io</p>
               </div>
             </div>
 
-            <div className="mx-auto">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <div className="md:mx-auto">
+              <h2 class="mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Product
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -54,8 +54,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="mx-auto">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <div className="md:mx-auto">
+              <h2 class="mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Support
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -81,8 +81,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="mx-auto">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <div className="md:mx-auto">
+              <h2 class="mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Company
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
