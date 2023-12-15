@@ -62,7 +62,7 @@ const FasterTransactions = () => {
           >
             <img className="mx-auto w-7 pt-2.5" src="./icon1.svg" />
           </div>
-          <h3 className="text-[20px] my-3">Govern by the community</h3>
+          <h3 className="text-[20px] mt-3">Govern by the community</h3>
           <p className="text-[14px] p-3 md:p-0 md:text-[16px] text-[#BBB4B4] opportunity_desc">
           Price of the token will be estimated & decided by the community. On every transaction LP will contributed with predecided percentage of tokens
           </p>
@@ -85,7 +85,7 @@ const FasterTransactions = () => {
           >
             <img className="mx-auto w-6 pt-2.5" src="./icon2.svg" />
           </div>
-          <h3 className="text-[20px] my-3">Referral rewards</h3>
+          <h3 className="text-[20px] mt-3">Referral rewards</h3>
           <p className="text-[14px] p-3 md:p-0 md:text-[16px] text-[#BBB4B4] opportunity_desc">
           Every purchase & referrer will be rewarded with tokens. Income is distributed upto 10 Levels.z
           </p>
