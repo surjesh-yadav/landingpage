@@ -19,12 +19,12 @@ const BannerSection = () => {
          
         <div className='right-button bg-[#232323FA] h-12 py-1.5 px-5 rounded-md'>
            <a href='#' className='flex space-x-1 py-auto text-[18px] md:text-[18px] '>
-             <span className='pt-1'>Whitepaper</span><img src='/header-button-arrow.svg' className="mt-1.5 ml-3" />
+             <span className='pt-1'>Whitepaper</span>
            </a>
          </div>
          <div className='right-button bg-[#234BC1] h-12 py-1.5 px-5 rounded-md'>
            <a href='#' className='flex space-x-1 py-auto text-[18px] md:text-[18px] '>
-             <span className='pt-1'>Buy CUN</span><img src='/header-button-arrow.svg' className="mt-1.5 ml-3" />
+             <span className='pt-1'>Buy CUN</span>
            </a>
          </div>
       </div>
