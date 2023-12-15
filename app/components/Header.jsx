@@ -2,7 +2,7 @@ import React from 'react'
 import { TiArrowRight} from "react-icons/ti";
 const Header = () => {
   return (
-    <div id='scrollToTopBtn' className='container text-white mx-auto md:p-5 my-4 py-5 md:py-16 flex justify-between'>
+    <div id='scrollToTopBtn' className='container text-white mx-auto md:p-5  py-5 md:py-16 flex justify-between'>
          <div className='left-image'>
             <img src='./logo-dark.svg'/>
          </div>
