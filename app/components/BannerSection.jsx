@@ -24,7 +24,7 @@ const BannerSection = () => {
          </div>
          <div className='right-button bg-[#234BC1] h-12 py-1.5 px-5 rounded-md'>
            <a href='#' className='flex space-x-1 py-auto text-[18px] md:text-[18px] '>
-             <span className='pt-1'>Buy CUN</span>
+             <span className='pt-1'>Dashboard</span>
            </a>
          </div>
       </div>
