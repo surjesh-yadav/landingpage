@@ -4,14 +4,8 @@ const FasterTransactions = () => {
   return (
     <div className="mt-20">
       <div
-        style={{
-          backgroundImage: "url(./transaction.png)",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          borderBottom: "1px solid #343238",
-          borderRadius: "44px",
-        }}
-        className="container text-white fasterTransaction mx-auto">
+        
+        className="container bg-[#1a1b1c] rounded-[30px] text-white fasterTransaction mx-auto">
         <div className="md:flex justify-between">
           <div className="p-5 md:pl-20 py-5 md:py-16 md:w-[58%]">
             <div className="flex mx-auto md:mx-0 space-x-2 justify-center p-2 md:text-[25px] md:p-1.5 rounded-3xl px-3 bg-[#255EF0AB] max-w-[250px] md:max-w-[410px]">
@@ -29,7 +23,7 @@ const FasterTransactions = () => {
              There are multiple reasons why Avtar coin is deployed on Bep20 network & few of them are listed below
             </p>
            
-            <div className="bg-[#151f3d] text-center md:text-start mx-auto mt-8 md:mx-0 pl-[28px]  md:pl-[43px]  rounded-2xl p-4 md:p-5  max-w-[410px]">
+            <div className="bg-[#383838AB] text-center md:text-start mx-auto mt-8 md:mx-0 pl-[28px]  md:pl-[43px]  rounded-2xl p-4 md:p-5  max-w-[410px]">
             <ul className=" md:list-disc text-[15px] md:text-[20px] mx-auto md:mx-0 ">
               <li className="mb-2">Block speed is more on Bep20</li>
               <li className="mb-2"> Gas optimization is better</li>
@@ -45,12 +39,8 @@ const FasterTransactions = () => {
 
       <div className="mt-10 md:flex justify-between space-y-10 md:space-y-0 md:space-x-20">
         <div
-          style={{
-            backgroundImage: "url(./govern.png)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-          className=" rounded-[45px] p-5 md:p-10 text-center lg:pr-20  md:w-1/2 md:text-left"
+           
+          className=" rounded-[45px] bg-[#1a1a1c] p-5 md:p-10 text-center lg:pr-20  md:w-1/2 md:text-left"
         >
           <div
             className="w-12 h-12 mx-auto md:mx-0 "
@@ -68,12 +58,8 @@ const FasterTransactions = () => {
           </p>
         </div>
         <div
-          style={{
-            backgroundImage: "url(./govern.png)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-          className=" rounded-[45px] p-5 md:p-10 text-center lg:pr-20  md:text-left md:w-1/2"
+          
+          className=" rounded-[45px] bg-[#1a1a1c] p-5 md:p-10 text-center lg:pr-20  md:text-left md:w-1/2"
         >
           <div
             className="w-12 h-12 mx-auto md:mx-0"

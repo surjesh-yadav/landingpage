@@ -45,7 +45,7 @@ const Subscribe = () => {
       </div>
       <div
         style={{
-          backgroundImage: "url(./subscribe.png)",
+          backgroundImage: "url(./subscribebg.svg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           borderBottom: "1px solid #343238",
