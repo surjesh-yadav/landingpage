@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import{  Plus_Jakarta_Sans  }from 'next/font/google'
 import './globals.css'
 import Head from 'next/head';
-import '@fontsource/plus-jakarta-sans'; // Import the font
-const inter = Inter({ subsets: ['latin'] })
+// import '@fontsource/plus-jakarta-sans'; // Import the font
+const plus_Jakarta_Sans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,10 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" />
-      </Head>
-      <body>{children}</body>
+      <body className={plus_Jakarta_Sans.className}>{children}</body>
     </html>
   )
 }
