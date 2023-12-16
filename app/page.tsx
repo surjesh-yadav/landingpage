@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <div className="bg-[#0B0C0E] px-5 scroll-smooth">
       <Head>
-       <meta property="og:image" content="/dashh.svg" />
+        <title>The BEP20 Token govern by the community.!!</title>
+        <meta name="description" content="The BEP20 Token govern by the community.!!" />
+        <meta property="og:image" content="/dashh.svg" />
       </Head>
       <div className='max-width'>  
         <Header />
