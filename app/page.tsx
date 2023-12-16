@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <div className="bg-[#0B0C0E] px-5 scroll-smooth">
       <Head>
-        <title>CUNetwork</title>
+       <meta property="og:image" content="/dashh.svg" />
       </Head>
-      <div className='max-width'>
+      <div className='max-width'>  
         <Header />
         <BannerSection />
         <InvestmentOpportunities />
