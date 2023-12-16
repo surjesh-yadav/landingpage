@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
- 
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,19 +26,17 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  
-    /* font-family: 'Plus Jakarta Sans', sans-serif!important;
+
+  /* font-family: 'Plus Jakarta Sans', sans-serif!important;
     src: url('/public/fonts/PlusJakartaSans-VariableFont_wght.ttf'); */
 }
 
-
-
-.max-width{
+.max-width {
   max-width: 1140px;
   margin: auto;
 }
 
-  #scrollToTopBtnmain {
+#scrollToTopBtnmain {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -49,8 +47,7 @@ body {
   display: block;
 }
 
-
-.line_opportunity{
+.line_opportunity {
   position: absolute;
   transform: rotate(90deg);
   /* bottom: 0px; */
@@ -59,41 +56,44 @@ body {
   left: 127px;
 }
 
-
-.opportunity_desc, .line-height-custom{
+.opportunity_desc,
+.line-height-custom {
   line-height: 1.8;
 }
 
-.group:hover .group-hover\:scale-125{
+.group:hover .group-hover\:scale-125 {
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
-  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group:hover .group-hover\:opacity-100{
+.group:hover .group-hover\:opacity-100 {
   opacity: 1;
 }
 
 .group:hover .group-hover\:before\:gradient-3::before {
-    content: var(--tw-content);
-    background-image: linear-gradient(251.09deg, #701efc 5.04%, #cbb3f3 96.95%);
-  }
+  content: var(--tw-content);
+  background-image: linear-gradient(251.09deg, #701efc 5.04%, #cbb3f3 96.95%);
+}
 
-  .features-bg {
-    background: -webkit-gradient(
-      linear,
-      left top, left bottom,
-      from(rgba(255, 255, 255, 0)),
-      to(rgba(255, 255, 255, 0.05))
-    );
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0.05) 100%
-    );
-    -webkit-transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) opacity;
-    transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) opacity;
-  }
-
-  
+.features-bg {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0)),
+    to(rgba(255, 255, 255, 0.05))
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  -webkit-transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) opacity;
+  transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) opacity;
+}
